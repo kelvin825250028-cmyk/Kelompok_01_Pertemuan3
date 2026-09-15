@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!-- Menyatakan dokumen ini adalah file HTML5 agar browser dapat membaca format halaman modern. -->
+<html lang="id"> <!-- Membuka elemen HTML utama dan menetapkan bahasa halaman menjadi Bahasa Indonesia. -->
+<head> <!-- Membuka bagian head yang berisi metadata dan pengaturan halaman. -->
+    <meta charset="UTF-8"> <!-- Mengatur encoding karakter agar teks bisa ditampilkan dengan benar. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mengatur ukuran tampilan agar halaman responsif di berbagai perangkat. -->
+    <title>Jadwal Kuliah</title> <!-- Menetapkan judul halaman yang muncul di tab browser. -->
+    <link rel="stylesheet" href="style (1).css"> <!-- Menghubungkan halaman HTML dengan file CSS untuk mengatur tampilan. -->
+</head> <!-- Menutup bagian head. -->
+<body> <!-- Membuka bagian body yang berisi semua konten yang dilihat pengguna. -->
+    <table border="1" cellpadding="10" cellspacing="0"> <!-- Membuat tabel jadwal dengan garis border, jarak sel, dan pengaturan spasi antar sel. -->
+        <thead> <!-- Membuka bagian header tabel. -->
+            <tr> <!-- Membuat baris di header tabel. -->
+                <th colspan="9"><h1>Jadwal Kuliah Mahasiswa Semester 3</h1></th> <!-- Menggabungkan 9 kolom untuk menampilkan judul jadwal utama. -->
+            </tr> <!-- Menutup baris header. -->
+        </thead> <!-- Menutup bagian header tabel. -->
+        <tbody> <!-- Membuka bagian isi tabel yang berisi data jadwal mata kuliah. -->
+            <tr id="judul"> <!-- Membuat baris judul kolom tabel. -->
+                <td>No</td> <!-- Menampilkan kolom nomor urut. -->
+                <td>Kode</td> <!-- Menampilkan kolom kode mata kuliah. -->
+                <td>Mata Kuliah (sks)</td> <!-- Menampilkan kolom nama mata kuliah dan jumlah SKS. -->
+                <td>Kls</td> <!-- Menampilkan kolom kelas. -->
+                <td>Dosen Pengajar</td> <!-- Menampilkan kolom nama dosen pengajar. -->
+                <td>Ruang / Waktu</td> <!-- Menampilkan kolom ruang dan jadwal waktu kuliah. -->
+                <td>Ket.</td> <!-- Menampilkan kolom keterangan. -->
+                <td>Kode Join Teams</td> <!-- Menampilkan kolom kode link join Teams. -->
+                <td>Kontak Email Dosen</td> <!-- Menampilkan kolom email dosen. -->
+            </tr> <!-- Menutup baris judul kolom. -->
+            <tr id="nomor1"> <!-- Membuat baris data mata kuliah pertama. -->
+                <td>1</td> <!-- Menampilkan nomor urut 1. -->
+                <td>SI23028</td> <!-- Menampilkan kode mata kuliah pertama. -->
+                <td>JARINGAN KOMPUTER DAN KOMPUTASI AWAN (4)</td> <!-- Menampilkan nama mata kuliah beserta jumlah SKS. -->
+                <td>A</td> <!-- Menampilkan kelas A. -->
+                <td>10811001<br>RIFKY KURNIAWAN., S.Kom</td> <!-- Menampilkan NIP dan nama dosen dengan baris baru. -->
+                <td> <!-- Membuka sel untuk data ruang dan waktu. -->
+                    R0904 / JUMAT(09:30 s/d 11:10)<br> <!-- Menampilkan ruang dan jadwal pertama mata kuliah. -->
+                    JUMAT(07:30 s/d 09:10) <!-- Menampilkan jadwal kedua mata kuliah. -->
+                </td> <!-- Menutup sel ruang dan waktu. -->
+                <td>Teori</td> <!-- Menampilkan keterangan bahwa mata kuliah ini bersifat teori. -->
+                <td>qu8g1lp</td> <!-- Menampilkan kode join Teams mata kuliah pertama. -->
+                <td>rifkyk@fti.untar.ac.id</td> <!-- Menampilkan email dosen mata kuliah pertama. -->
+            </tr> <!-- Menutup baris data mata kuliah pertama. -->
+            <tr id="nomor2"> <!-- Membuat baris data mata kuliah kedua. -->
+                <td>2</td> <!-- Menampilkan nomor urut 2. -->
+                <td>SI23034</td> <!-- Menampilkan kode mata kuliah kedua. -->
+                <td>PEMROGRAMAN BERBASIS OBJEK (4)</td> <!-- Menampilkan nama mata kuliah beserta jumlah SKS. -->
+                <td>A</td> <!-- Menampilkan kelas A. -->
+                <td>10301015<br>LELY HIRYANYO, ST., M.Sc.,Ph.D.</td> <!-- Menampilkan NIP dan nama dosen dengan baris baru. -->
+                <td> <!-- Membuka sel untuk data ruang dan waktu. -->
+                    R0905 / SELASA(13:30 s/d 15:10)<br> <!-- Menampilkan ruang dan jadwal pertama mata kuliah. -->
+                    SELASA(15:30 s/d 17:10) <!-- Menampilkan jadwal kedua mata kuliah. -->
+                </td> <!-- Menutup sel ruang dan waktu. -->
+                <td>Teori</td> <!-- Menampilkan keterangan bahwa mata kuliah ini bersifat teori. -->
+                <td>da7sz1k</td> <!-- Menampilkan kode join Teams mata kuliah kedua. -->
+                <td>lelyh@fti.untar.ac.id</td> <!-- Menampilkan email dosen mata kuliah kedua. -->
+            </tr> <!-- Menutup baris data mata kuliah kedua. -->
+            <tr id="nomor3"> <!-- Membuat baris data mata kuliah ketiga. -->
+                <td>3</td> <!-- Menampilkan nomor urut 3. -->
+                <td>SI23035</td> <!-- Menampilkan kode mata kuliah ketiga. -->
+                <td>PEMROGRAMAN ANTARMUKA PENGGUNA (4)</td> <!-- Menampilkan nama mata kuliah beserta jumlah SKS. -->
+                <td>A</td> <!-- Menampilkan kelas A. -->
+                <td>10823004<br>IRVAN LEWENUSA, S.Kom., M.Kom.</td> <!-- Menampilkan NIP dan nama dosen dengan baris baru. -->
+                <td> <!-- Membuka sel untuk data ruang dan waktu. -->
+                    R1007 / SELASA(09:30 s/d 11:10)<br> <!-- Menampilkan ruang dan jadwal pertama mata kuliah. -->
+                    SELASA(07:30 s/d 09:10) <!-- Menampilkan jadwal kedua mata kuliah. -->
+                </td> <!-- Menutup sel ruang dan waktu. -->
+                <td>Teori</td> <!-- Menampilkan keterangan bahwa mata kuliah ini bersifat teori. -->
+                <td>rsj162c</td> <!-- Menampilkan kode join Teams mata kuliah ketiga. -->
+                <td>irvanl@fti.untar.ac.id</td> <!-- Menampilkan email dosen mata kuliah ketiga. -->
+            </tr> <!-- Menutup baris data mata kuliah ketiga. -->
+            <tr id="nomor4"> <!-- Membuat baris data mata kuliah keempat. -->
+                <td>4</td> <!-- Menampilkan nomor urut 4. -->
+                <td>SI23037</td> <!-- Menampilkan kode mata kuliah keempat. -->
+                <td>METODOLOGI PENELITIAN DAN ETIKA DIGITAL (4)</td> <!-- Menampilkan nama mata kuliah beserta jumlah SKS. -->
+                <td>A</td> <!-- Menampilkan kelas A. -->
+                <td>10805005<br>TONY, S.Kom., M.Kom., Ph.D.</td> <!-- Menampilkan NIP dan nama dosen dengan baris baru. -->
+                <td> <!-- Membuka sel untuk data ruang dan waktu. -->
+                    R0702 / RABU(09:30 s/d 11:10)<br> <!-- Menampilkan ruang dan jadwal pertama mata kuliah. -->
+                    RABU(11:30 s/d 13:10) <!-- Menampilkan jadwal kedua mata kuliah. -->
+                </td> <!-- Menutup sel ruang dan waktu. -->
+                <td>Teori</td> <!-- Menampilkan keterangan bahwa mata kuliah ini bersifat teori. -->
+                <td>-</td> <!-- Menandakan bahwa mata kuliah keempat tidak memiliki kode join Teams. -->
+                <td>tony@fti.untar.ac.id</td> <!-- Menampilkan email dosen mata kuliah keempat. -->
+            </tr> <!-- Menutup baris data mata kuliah keempat. -->
+            <tr id="nomor5"> <!-- Membuat baris data mata kuliah kelima. -->
+                <td>5</td> <!-- Menampilkan nomor urut 5. -->
+                <td>SI23040</td> <!-- Menampilkan kode mata kuliah kelima. -->
+                <td>ANALISIS DAN PERANCANGAN SISTEM INFORMASI (4)</td> <!-- Menampilkan nama mata kuliah beserta jumlah SKS. -->
+                <td>A</td> <!-- Menampilkan kelas A. -->
+                <td>10188013<br>ERY DEWAYANI, Dra., M.M.S.I.</td> <!-- Menampilkan NIP dan nama dosen dengan baris baru. -->
+                <td> <!-- Membuka sel untuk data ruang dan waktu. -->
+                    R0805 / KAMIS(09:30 s/d 11:10)<br> <!-- Menampilkan ruang dan jadwal pertama mata kuliah. -->
+                    KAMIS(11:30 s/d 13:10) <!-- Menampilkan jadwal kedua mata kuliah. -->
+                </td> <!-- Menutup sel ruang dan waktu. -->
+                <td>Teori</td> <!-- Menampilkan keterangan bahwa mata kuliah ini bersifat teori. -->
+                <td>-</td> <!-- Menandakan bahwa mata kuliah kelima tidak memiliki kode join Teams. -->
+                <td>eryd@fti.untar.ac.id</td> <!-- Menampilkan email dosen mata kuliah kelima. -->
+            </tr> <!-- Menutup baris data mata kuliah kelima. -->
+        </tbody> <!-- Menutup bagian isi tabel. -->
+    </table> <!-- Menutup tabel jadwal. -->
+
+</body> <!-- Menutup bagian body halaman web. -->
+</html> <!-- Menutup dokumen HTML. -->

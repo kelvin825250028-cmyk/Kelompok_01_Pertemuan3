@@ -1,0 +1,27 @@
+body { /* Mengatur tampilan body halaman agar teks berwarna hitam, font umum, dan rata tengah. */
+    color: black; /* Menetapkan warna teks utama pada halaman menjadi hitam. */
+    font-family: Arial, sans-serif; /* Menggunakan font Arial atau font sans-serif lain jika Arial tidak tersedia. */
+    text-align: center; /* Menyusun konten dalam body agar rata tengah secara horizontal. */
+} /* Menutup aturan styling untuk body. */
+
+table { /* Mengatur tampilan tabel utama jadwal agar lebih lebar dan rapi. */
+    width: 95%; /* Menentukan lebar tabel sebesar 95% dari lebar layar. */
+    max-width: 1400px; /* Membatasi lebar maksimum tabel agar tetap terlihat proporsional di layar besar. */
+    border-collapse: collapse; /* Menggabungkan border antar sel agar tampilan tabel lebih compact. */
+    background: white; /* Mengatur warna latar belakang tabel menjadi putih. */
+} /* Menutup aturan styling untuk tabel. */
+
+td { /* Mengatur tampilan semua sel data dalam tabel. */
+    border: 1px solid black; /* Menambahkan garis hitam tipis pada setiap sel tabel. */
+    text-align: center; /* Menengahkan isi teks di setiap sel tabel. */
+} /* Menutup aturan styling untuk sel data. */
+
+th { /* Mengatur tampilan sel header tabel. */
+    color: white; /* Menetapkan warna teks header menjadi putih agar kontras dengan latar belakang. */
+    background: rgb(100, 11, 11); /* Memberi latar belakang header dengan warna marun gelap. */
+    text-align: center; /* Menengahkan teks pada header tabel. */
+} /* Menutup aturan styling untuk header tabel. */
+
+tbody tr:nth-child(even) { /* Memilih baris genap di dalam tbody agar diberi warna berbeda untuk mempermudah membaca tabel. */
+    background-color: lightgray; /* Memberi warna abu terang pada baris genap agar tampilan tabel lebih rapi. */
+} /* Menutup aturan styling untuk baris genap tbody. */
